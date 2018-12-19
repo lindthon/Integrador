@@ -9,11 +9,13 @@ import java.time.LocalDate;
 import java.util.LinkedList;
 import java.util.List;
 
+import facturador.estructural.IComprobante;
+
 /**
  *
  * @author Palacios
  */
-public class ComprobanteElectronico {
+public class ComprobanteElectronico implements IComprobante{
     
     protected List<String> detallesEmisor;
     protected String nombreCliente;

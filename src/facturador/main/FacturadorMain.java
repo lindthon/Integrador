@@ -8,7 +8,9 @@ import facturador.creacional.ComprobantesFactory;
 public class FacturadorMain {
 
 	public static void main(String[] args) {
+		
 		ComprobantesFactory comprobanteFact = new ComprobantesFactory();
+        
 	
 		System.out.println("Seleccione el comprobante que desea crear: \n"
 				+ "Escoja 1 para crear Factura\n"
@@ -32,7 +34,6 @@ public class FacturadorMain {
 			break;
 		}
 			
-		
 	}
 
 }
